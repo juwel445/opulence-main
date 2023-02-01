@@ -1012,29 +1012,19 @@ body {
 |
 */
 .statistics__area {
-  padding-block: 160px;
-  padding-block: 10rem;
+	padding-block: 4rem;
 }
 
-/* .statistics__area::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: -o-linear-gradient(
-    359.72deg,
-    #06463c 0.26%,
-    #155148 30.33%,
-    #4a746d 99.79%
-  );
-  background: linear-gradient(
-    90.28deg,
-    #06463c 0.26%,
-    #155148 30.33%,
-    #4a746d 99.79%
-  );
-  z-index: -1;
-  mix-blend-mode: overlay;
-} */
+.statistics__area::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	mix-blend-mode: overlay;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+}
 
 .statistics__area .stats__item {
   text-align: center;
@@ -1889,6 +1879,44 @@ body {
     -webkit-transition: all .65s cubic-bezier(.84,-0.18,.31,1.26);
     transition: all .65s cubic-bezier(.84,-0.18,.31,1.26);
 }
+
+
+/*  new chnages css */
+.parallax_heading h2 img {
+	max-width: 96px;
+	width: 100%;
+}
+.parallax_heading h2 span {
+	font-family: 'Nexa-Bold';
+	font-size: 42px;
+	line-height: 76px;
+	color: #21BDA5;
+  display: inline-block;
+  margin-left: 25px;
+}
+.parallax_heading h2 {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.parallax_heading p {
+	font-family: 'Nexa';
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	font-weight: 300;
+}
+.parallax_heading p span {
+	display: block;
+}
+
+
+
+
+
+
+
 
 
 

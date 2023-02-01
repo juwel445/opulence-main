@@ -109,6 +109,11 @@
   .start-trading .graphic__dots img {
     width: 84px;
   }
+  .teacher_img {
+    max-width: 375px;
+    width: 100%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 1199px) {

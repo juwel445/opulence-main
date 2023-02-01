@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="./vendor/magnific/magnific-popup.css" />
     <!-- lines -->
     <link rel="stylesheet" href="./vendor/lines/lines.css" />
+    <!-- owl carousel slider js -->
+    <link rel="stylesheet" href="./vendor/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owlcarousel/css/owl.theme.default.css">
     <!-- custom styles -->
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main.res.css" />
@@ -879,7 +882,71 @@
             </div>
             <div class="row gy-5 gy-lg-0 pt-5 justify-content-center">
               <div class="col-lg-5 col-xl-6">
-                 <div class="tools__edu_single_price"
+                 <div class="teacher_intro_main">
+                    <div class="techer_content_area owl-carousel owl-theme">
+                        <!-- single teacher content -->
+                        <div class="single_teacher">
+                            <div class="teacher_img">
+                               <img src="assets/images/Brian_White.png" alt="">
+                            </div>
+                            <div class="teacher_details">
+                               <h3>Brian White</h3>
+                               <p>MASTER TRADER, TRAIDEMASTER EDUCATION.
+                              </p>
+                            </div>
+                        </div>
+                        <!-- single teacher content -->
+                        <!-- single teacher content -->
+                        <div class="single_teacher">
+                          <div class="teacher_img">
+                             <img src="assets/images/Brian_White.png" alt="">
+                          </div>
+                          <div class="teacher_details">
+                             <h3>Brian White</h3>
+                             <p>MASTER TRADER, TRAIDEMASTER EDUCATION.
+                            </p>
+                          </div>
+                      </div>
+                      <!-- single teacher content -->
+                      <!-- single teacher content -->
+                      <div class="single_teacher">
+                        <div class="teacher_img">
+                           <img src="assets/images/Brian_White.png" alt="">
+                        </div>
+                        <div class="teacher_details">
+                           <h3>Brian White</h3>
+                           <p>MASTER TRADER, TRAIDEMASTER EDUCATION.
+                          </p>
+                        </div>
+                    </div>
+                    <!-- single teacher content -->
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-7 col-xl-6 position-relative pb-5">
+                <div
+                  class="bg-holder"
+                  style="
+                    background-image: url('./assets/images/tools-edu_bg.png');
+                  "
+                ></div>
+                <!--//bg-holder  -->
+                <div class="edu_details">
+                   <!-- single edu details -->
+                   <div class="single_edu_details">
+                      <p
+                  class="text__3 text-center fw-semibold"
+                  style="color: var(--strong-cyan)"
+                >
+                  Learn Forex, Trading and the Commodity Market
+                </p>
+                <p class="text__3 lh-lg text-center ff-nexa fw-light custom_font">
+                  <span>Join Trading Master Educators Brian, Al, Pierre and John as they</span> 
+                  <span>teach a variety of Forex trading patterns and strategies up to 8</span> 
+                  <span>live classes a week! Free trading indicators included!</span>
+                </p>
+                   </div>
+                   <div class="tools__edu_single_price"
                 >
                   <div class="splide__track">
                     <ul class="splide__list">
@@ -919,45 +986,6 @@
                   </div>
 
                 </div>
-              </div>
-              <div class="col-lg-7 col-xl-6 position-relative pb-5">
-                <div
-                  class="bg-holder"
-                  style="
-                    background-image: url('./assets/images/tools-edu_bg.png');
-                  "
-                ></div>
-                <!--//bg-holder  -->
-                <div class="edu_details">
-                   <!-- single edu details -->
-                   <div class="single_edu_details">
-                      <p
-                  class="text__3 text-center fw-semibold"
-                  style="color: var(--strong-cyan)"
-                >
-                  Learn Forex, Trading and the Commodity Market
-                </p>
-                <p class="text__3 lh-lg text-center ff-nexa fw-light custom_font">
-                  <span>Join Trading Master Educators Brian, Al, Pierre and John as they</span> 
-                  <span>teach a variety of Forex trading patterns and strategies up to 8</span> 
-                  <span>live classes a week! Free trading indicators included!</span>
-                </p>
-                   </div>
-                   <!-- single edu details -->
-                   <div class="another_edu_details">
-                      <p
-                  class="text__3 text-center fw-semibold"
-                  style="color: var(--strong-cyan)"
-                >
-                  Live Weekly Market Update Classes
-                </p>
-                <p class="text__3 lh-lg text-center ff-nexa fw-light custom_font">
-                  <span>Join us weekly for updates on upcoming market conditions,</span> 
-                  <span> software results, and Live Q & A sessions to help you understand</span> 
-                  <span>how your software works and how it Interacts with daily</span>
-                  <span>economic trends.</span>
-                </p>
-                   </div>
                 </div>
                 
               </div>
@@ -1084,26 +1112,7 @@
                 A WHOLE NEW WORLD <br />
                 OF TRADING
               </p>
-              <div class="btn__group" style="gap: 0.5rem">
-                <a href="#" class="link-dark text-decoration-none">
-                  <img
-                    src="./assets/images/app_store.png"
-                    alt="App Store"
-                    width="126"
-                    height="40"
-                    class="img-fluid"
-                  />
-                </a>
-                <a href="#" class="link-dark text-decoration-none">
-                  <img
-                    src="./assets/images/play_store.png"
-                    alt="Play Store"
-                    width="126"
-                    height="40"
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
+              
             </div>
             <div class="col-lg-6">
               <div class="widgets row gy-5 gy-sm-0">
@@ -1230,6 +1239,57 @@
         </div>
       </section>
       <!-- Extra Elems Ends -->
+
+      <!-- extra elems starts -->
+      <section class="site-alert">
+        <div
+          class="modal fade alert-modal"
+          data-bs-backdrop="static"
+          id="alertModal"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title title-5 text-uppercase text-grad-yellow-to-orange mb-0"
+                >
+                TRADING DISCLAIMER
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close-op"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="modal-body text-white">
+                <p class="text-4">
+                  Trading in the Forex Markets, like any market, is risky. Our clients have seen satisfying profits, however, past profits do not guarantee future results for any client. Opulence Global Markets is not a licensed fiduciary, but a software company. Opulence Global Markets does not control market conditions and does not guarantee profits. We do not have access to client trading capital and deposits, or withdrawals are between the client and the client's chosen broker. Please do not trade with money you cannot afford to lose. Opulence Global Markets is not responsible for loss and we invite ALL potential clients to speak to an Opulence Global Markets corporate member prior to using any of our trading platforms. To set up an appointment for product discussion, please email our support team at: <a href="mailto:opusupport@opuglobal.com">opusupport@opuglobal.com</a>
+
+                </p>
+              </div>
+              <div class="modal-footer">
+                <div class="text-center">
+                  <a
+                    href="#"
+                    class="opu__btn_modal op-btn-grad-secondary"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    Agree
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- extra elems ends -->
+
+
     </div>
     <!-- !APP -->
 
@@ -1245,6 +1305,8 @@
     <script src="./vendor/magnific/jquery.magnific-popup.min.js"></script>
     <!-- counter up -->
     <script src="./vendor/countup/countUpLegacy.js"></script>
+    <!-- owl carousel js -->
+    <script src="./vendor/owlcarousel/js/owl.carousel.min.js"></script>
     <!-- cutom scripts -->
     <script src="./js/main.js"></script>
   </body>

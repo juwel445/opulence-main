@@ -172,6 +172,7 @@ JSOB.createTypeWriter = function (selector, data = [], once = false) {
   }
 };
 
+
 // document on load
 document.addEventListener("DOMContentLoaded", () => {
   JSOB.initAos();
@@ -278,9 +279,38 @@ document.addEventListener("scroll", () => {
   JSOB.stickyHeader();
 });
 
+// alert modal
+JSOB.controlAlert = function () {
+  const modalElem = document.getElementById("#alertModal");
+  const options = {};
+  const alertModal = new bootstrap.Modal("#alertModal", options);
+  alertModal.show(modalElem);
+};
+JSOB.controlAlert();
 
 $(document).ready(function() {
 	$('.popup-youtube').magnificPopup({
     type: 'iframe'
   });
+  $(document).ready(function() {
+    $('.techer_content_area').owlCarousel({
+        loop:true,
+        nav:false,
+        items:1,
+        margin:0,
+        dots:true,
+        smartSpeed: 300,
+        responsive:{
+            0:{
+                items:1,
+            },
+            768:{
+                items:1,
+            },
+            1000:{
+                items:1,
+            }
+        }
+    })
+});
 });

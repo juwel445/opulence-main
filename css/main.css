@@ -2033,9 +2033,43 @@ body {
 .techer_content_area.owl-theme .owl-dots .owl-dot span {
 	background: rgba(253,76,92,0.2);
 }
-.owl-theme .owl-dots {
+.techer_content_area.owl-theme .owl-dots {
 	position: absolute;
 	bottom: 90px;
 	left: 50%;
 	transform: translateX(-50%);
 }
+.opu_gold_scoper_main_area .markable__bottom-line-yellow::after {
+	top: 115%;
+	background-image: url("../assets/images/bottom_line-1.svg");
+	width: 63%;
+}
+.opu_gold_scoper_main_area .section__header .title__3 {
+	margin-bottom: 1.5rem;
+}
+.opugold_single_pack {
+	max-width: 280px;
+	background: #FFFFFF;
+	border: 2.1641px solid #06463C;
+	border-radius: 7.21366px;
+	margin: auto;
+}
+.opugold_single_pack .card.card-body {
+	padding: 38px;
+}
+.gold_declamier p {
+	font-size: 18px;
+	line-height: 32px;
+	text-align: center;
+	color: #666766;
+	font-family: 'Nexa';
+	max-width: 900px;
+	width: 100%;
+	margin: auto;
+}
+.gold_declamier {
+	margin-top: 48px;
+}
+
+
+

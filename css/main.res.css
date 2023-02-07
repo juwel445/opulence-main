@@ -444,9 +444,26 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .parallax_heading h2 span {
+    font-size: 36px;
+    line-height: 76px;
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .parallax_heading h2 span {
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  .parallax_heading h2 img {
+    max-width: 60px;
+    width: 100%;
+  }
+  .parallax_heading p span {
+    display: initial;
+  }
   /* titles */
   .title__1 {
     font-size: 2.25rem;
@@ -741,6 +758,18 @@
 }
 
 @media only screen and (max-width: 575px) {
+  .parallax_heading h2 span {
+    font-size: 28px;
+    line-height: 50px;
+    margin-left: 0px;
+  }
+  .parallax_heading h2 img {
+    max-width: 60px;
+    width: 100%;
+  }
+  .parallax_heading h2 {
+    align-items: flex-start;
+  }
   /* titles */
   .title__1 {
     font-size: 2rem;

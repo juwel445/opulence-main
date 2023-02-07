@@ -1168,84 +1168,7 @@
               </p>
               
             </div>
-            <div class="col-lg-6">
-              <div class="widgets row gy-5 gy-sm-0">
-                <div class="col-sm-4">
-                  <div class="widget__item">
-                    <h5 class="widget__title text__5 fw-bold">Community</h5>
-                    <ul class="widget__nav reboot-list">
-                      <li>
-                        <a href="#" class="widget__nav-link text__5">Twitter</a>
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5"
-                          >Facebook</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5"
-                          >Instagram</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5"
-                          >Locker Security</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="widget__item">
-                    <h5 class="widget__title text__5 fw-bold">About</h5>
-                    <ul class="widget__nav reboot-list">
-                      <li>
-                        <a href="#" class="widget__nav-link text__5">Fees</a>
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5"
-                          >Privacy policy</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5"
-                          >Tax Disclaimer</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5"
-                          >Terms of services</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="widget__item">
-                    <h5 class="widget__title text__5 fw-bold">Services</h5>
-                    <ul class="widget__nav reboot-list">
-                      <li>
-                        <a href="#" class="widget__nav-link text__5">Blog</a>
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5">Video</a>
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5">FAQ</a>
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5"
-                          >How to guide</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#" class="widget__nav-link text__5">Support</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
           <hr class="footer__divider" />
           <p class="text__5 opacity-75 text-center">
@@ -1363,5 +1286,19 @@
     <script src="./vendor/owlcarousel/js/owl.carousel.min.js"></script>
     <!-- cutom scripts -->
     <script src="./js/main.js"></script>
+
+    <script>
+      var elements = document.querySelectorAll('[data-aos]');
+
+      window.addEventListener('resize', function() {
+        if (window.innerWidth <= 768) {
+          elements.forEach(function(element) {
+            element.removeAttribute('data-aos');
+          });
+        }
+      });
+
+    </script>
+
   </body>
 </html>

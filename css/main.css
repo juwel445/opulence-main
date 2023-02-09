@@ -2053,9 +2053,38 @@ body {
 	border: 2.1641px solid #06463C;
 	border-radius: 7.21366px;
 	margin: auto;
+  position: relative;
+  z-index: 1;
+}
+.opugold_single_pack::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 96px;
+	background: url(../assets/images/packages_shape_1.png) no-repeat scroll 0 0 / cover;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	
+}
+.opugold_single_pack::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+  height: 96px;
+	background: url(../assets/images/packages_shape_2.png) no-repeat scroll 0 0 / cover;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	
 }
 .opugold_single_pack .card.card-body {
 	padding: 38px;
+  background: transparent;
+}
+.opugold_single_pack .opu__btn-outline-primary.active {
+	color: var(--bs-white);
+	background-color: var(--very-dark-cyan);
 }
 .gold_declamier p {
 	font-size: 18px;

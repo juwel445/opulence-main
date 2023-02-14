@@ -359,8 +359,7 @@ body {
 }
 
 .navbar-main {
-  padding-block: 40px 16px;
-  padding-block: 2.5rem 1rem;
+  padding-block: 2rem 1rem;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
@@ -428,11 +427,10 @@ body {
 }
 
 .navbar__brand img {
-  width: 174px;
-  -webkit-transition: 300ms;
-  transition: 300ms;
+	width: 190px;
+	-webkit-transition: 300ms;
+	transition: 300ms;
 }
-
 .sticky .navbar__brand img {
   width: 120px;
 }
@@ -2099,6 +2097,8 @@ body {
 .gold_declamier {
 	margin-top: 48px;
 }
-
+.text-bold{
+  font-weight: bold;
+}
 
 

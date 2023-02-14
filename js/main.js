@@ -288,10 +288,8 @@ JSOB.controlAlert = function () {
 };
 JSOB.controlAlert();
 
-$(document).ready(function() {
-	$('.popup-youtube').magnificPopup({
-    type: 'iframe'
-  });
+
+
   $(document).ready(function() {
     $('.techer_content_area').owlCarousel({
         loop:true,
@@ -313,4 +311,13 @@ $(document).ready(function() {
         }
     })
 });
+$(document).ready(function() {
+	$('.popup-youtube, .popup-you').magnificPopup({
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+
+    fixedContentPos: false,
+  });
 });
